@@ -1,0 +1,24 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+}
+
+button,
+input{
+    margin: 10px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+div{
+    margin-top: 20px;
+}
+
+#hoverDiv{
+    width:200px;
+    height: 100px;
+    background-color: lightblue;
+    text-align: center;
+    padding-top: 40px;
+}
+

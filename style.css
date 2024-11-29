@@ -1,0 +1,103 @@
+*{
+    background-color:rgb(104, 241, 241);
+}
+
+p{
+color:rgb(235, 20, 163);
+}
+
+h1{
+    color: blue;
+}
+
+h3{
+    color: red;
+}
+
+.Login{
+    color:rgb(22, 40, 197); 
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+ul{
+    color:rgb(209, 27, 27)
+}
+
+ol{
+    color: rgb(60, 6, 110);
+}
+
+tr{
+    color: rgb(240, 7, 7);
+
+}
+.textcontent{
+    background-color: rgb(231, 89, 113);
+    width: 100px;
+    padding: 10px;
+    margin: 3px;
+}
+
+div.fixed{
+    position: fixed;                    /*The top, right, bottom, and left  */
+    bottom: 0;
+    right: 0;
+    width: 60px;
+    border: 5px solid #7a28bd;
+}
+
+.tr{
+    background-color: darkkhaki;
+    width: 100px;
+    padding: 10px;
+    margin: 3px;
+
+}
+
+@media(min-width: 601px){
+    body{
+        background-color: teal;
+        }
+}
+
+@media(min-width: 900px){
+    body{
+        background-color:gold;
+        }
+}
+
+.flex-container{
+    color: rgb(228, 3, 160);
+    display: flex;
+    flex-direction: row;
+    justify-content: left; /* main axis alignment*/
+    align-items: flex-end;  /* cross axis alignment*/
+}
+
+.flex-item{
+    margin: 70px;
+    padding: 50px;
+}
+
+.flex-header{
+    align-self: center;
+    order: 1;
+}
+
+/* grid layout*/
+
+.grid-container{
+    display:grid;
+    grid-template-columns: 20% 20% 30%; /* setting our columns*/
+    grid-template: auto;
+    border: 5px solid red;
+    grid-gap: 10px
+}
+
+.grid-container p{
+    border: 3px maroon;
+}
+
+/* .grid-item{
+    border: 4px solid blue;
+} */ 

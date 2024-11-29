@@ -1,0 +1,33 @@
+#pokemons{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    row-gap: 5px;
+}
+
+#pokemons h2{
+    grid-column-start: 1;
+    grid-column-end: 7;
+}
+
+body {
+    padding: 5px;
+    background-color: white;
+    color: black;
+    font-size: 25px;
+}
+
+.dark-mode {
+    background-color: black;
+    color: white;
+}
+
+.row33 {
+    display: flex;
+    margin-left:-5px;
+    margin-right:-5px;
+}
+
+.column33 {
+    flex: 50%;
+    padding: 5px;
+}

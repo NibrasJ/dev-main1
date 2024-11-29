@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="api.js"></script>
+</head>
+<body>
+    <h1>Get coordinates</h1>
+    <p id="demo1"></p>
+    <button onclick="findMe()">Find me</button>
+
+    <h2>Light/Dark Mode</h2>
+<p>Click the button to switch between dark and light mode.</p>
+
+<button onclick="myFunction()">Switch to dark mode</button>
+
+
+    <!-- Login Bar -->
+    <h3>Give me a number between 100 & 300</h3>
+    <input id="loginBar" type="number" min="100" max="300" required>
+    <button onclick="login()">Login</button>
+    <p id="loginDemo"></p>
+
+    <!-- Pokemon -->
+
+    <button onclick="fetchKantoPokemon(0)">PokeConsole</button>
+    <div>
+        <ul id="pokemons">
+            <h2>Pokemon</h2>
+        </ul>
+        <div id="detail">
+            <h2>No pokemon selected</h2>
+        </div>
+    </div>
+</body>
+</html>
