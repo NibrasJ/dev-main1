@@ -532,7 +532,7 @@ img {
 .next {
     cursor: grab;
     position: absolute;
-    top: 40%;
+    top: 25%;
     padding: 15px;
     margin-top: -50px;
     color: rgb(140, 0, 255);
