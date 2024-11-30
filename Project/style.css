@@ -251,7 +251,7 @@ html {
 /* Three columns side by side */
 .column1 {
     float: left;
-    width: 30%;
+    width: 33%;
     margin-bottom: 10px;
     padding: 0 5px;
 }
@@ -508,30 +508,28 @@ div.scrollmenu a {
 
 
 
-
-  
-  img {
+img {
     vertical-align: right;
-  }
-  
+}
+
   /* Position the image container (needed to position the left and right arrows) */
-  .ronaldocontainer {
+.ronaldocontainer {
     position: relative;
-  }
-  
+}
+
   /* Hide the images by default */
-  .mySlides {
+.mySlides {
     display: none;
-  }
-  
+}
+
   /* Add a pointer when hovering over the thumbnail images */
-  .ronaldocursor {
+.ronaldocursor {
     cursor: pointer;
-  }
-  
+}
+
   /* Next & previous buttons */
-  .ronaldoprev,
-  .next {
+.ronaldoprev,
+.next {
     cursor: grab;
     position: absolute;
     top: 40%;
@@ -541,62 +539,61 @@ div.scrollmenu a {
     font-weight: bold;
     font-size: 25px;
     border-radius: 10 3px 3px 10;
-  }
-  
+}
+
   /* Position the "next button" to the right */
-  .next {
+.next {
     right: 0;
     border-radius: 3px 0 0 3px;
-  }
-  
+}
+
   /* On hover, add a black background color with a little bit see-through */
-  .ronaldoprev:hover,
-  .next:hover {
+.ronaldoprev:hover,
+.next:hover {
     background-color: rgb(246, 0, 225);
-  }
-  
+}
+
   /* Number text (1/5 etc) */
-  .numbertext {
+.numbertext {
     color: #ff0000;
     font-size: 25px;
     padding: 5px 5px;
     position: absolute;
-  }
-  
+}
   /* Container for image text */
-  .caption-container {
+.caption-container {
     text-align: center;
     background-color:gold;
     padding: 5px 15px;
     color: rgb(222, 80, 180);
-  }
-  
-  .ronaldoorow:after {
+}
+
+.ronaldoorow:after {
     content: "";
     display: table;
     clear: right;
-  }
-  
+}
+
   /* Six columns side by side */
-  .columncristiano {
+.columncristiano {
     float: left;
     width: 20%;
-  }
-  
+}
+
   /* Add a transparency effect for thumnbail images */
-  .demo {
+.demo {
     opacity: 0.5;
-  }
-  
-  .active,
-  .demo:hover {
+}
+
+.active,
+.demo:hover {
     opacity: 1;
-  }
+}
 
    /* Container for image text */
-   .caption-container-messi {
+.caption-container-messi {
     text-align: center;
     background-color:rgb(218, 27, 27);
     padding: 1px 5px;
     color:  rgb(117, 5, 102);
-  }
+}
